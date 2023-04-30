@@ -1,0 +1,35 @@
+
+.caroussel{
+    background-color: white;
+}
+
+
+
+.card-carousel{
+    width: 90%;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease-out;
+    margin: 70px;
+    background-color: white;
+
+
+    .card-carousel-wrapper{
+        display: flex;
+        flex-direction: row;        
+        flex-wrap: nowrap;
+       
+        
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        font-size: xx-large;
+    }
+
+
+
+}
+

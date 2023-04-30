@@ -1,0 +1,46 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;    
+	position: sticky;
+	top: 0;
+}
+
+h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.ContenuChaussures{
+
+    display: flex;
+
+
+    .parametres{
+        background-color: brown;
+        width :15%;
+        margin-top: 25px;
+    }
+
+    .DataShoes{
+        width: 85%;
+
+        .Allshoes{
+            width: 100%;
+            margin-top: 10px;
+            justify-content: flex-end;
+            display: flex;
+            flex-wrap: wrap;
+        
+        }
+        
+    }
+}
+
+

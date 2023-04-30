@@ -1,0 +1,27 @@
+.card{
+    width: 40%;
+    height: 65%;
+    flex: 0 0 410px;
+    margin-right: 50px;
+    vertical-align: top;
+    box-shadow: 10px 5px 5px rgb(174, 166, 166);
+    .card:last-child {
+        margin-right: 0; /* Supprime la marge droite de la dernière carte pour éviter un espace blanc à la fin */
+      }
+
+     
+
+      .contenuCard{
+        display: flex;
+        justify-content: space-around;
+        
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .contenuHaut{
+            display: flex;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+      }
+}
